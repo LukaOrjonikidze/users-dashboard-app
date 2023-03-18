@@ -1,0 +1,10 @@
+.users {
+    margin: 0.6rem auto;
+    box-sizing: border-box;
+    max-width: 1800px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
+    grid-gap: 1.2rem 1.5rem;
+    grid-column-end: auto;
+}

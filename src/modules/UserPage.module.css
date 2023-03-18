@@ -1,0 +1,9 @@
+.user-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 15%;
+    padding: 2%;
+    border: 2px solid #797979;
+    gap: 2rem;
+}
